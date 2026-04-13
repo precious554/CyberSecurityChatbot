@@ -7,13 +7,11 @@ class Program
        
         VoiceGreeting.PlayVoice();
 
-        // Display ASCII logo
         AsciiArt.DisplayLogo();
 
-        // Get user name
         string name = UserInteraction.GetUserName();
 
-        Console.WriteLine($"\nHello {name}, welcome!");
+        Console.WriteLine($"\nHello {name}, welcome to cybersecurity awareness chatbot!");
         Console.WriteLine("You can ask me about cybersecurity.\n");
 
         Chatbot bot = new Chatbot();
