@@ -25,6 +25,7 @@ public class Chatbot
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("CyberBot: I didn't quite understand that. Could you rephrase?");
+            Console.WriteLine("Always log out when you done!");
             Console.ResetColor();
         }
     }
